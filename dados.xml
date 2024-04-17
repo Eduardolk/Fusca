@@ -1,0 +1,42 @@
+<?XML vesrsion="1.0">
+ <NACIONAIS>
+   <CARROS>
+    <id>Fuscas</id>
+    <Ano>1938</Ano>
+    <Modelo>fusca (tipo 1)</Modelo>
+    <Preço>R$1.800.000</Preço>
+    <Imagem>Fusca.png</Imagem>
+</NACIONAIS>
+<NACIONAIS>
+   <CARROS>
+    <id>Fusca</id>
+    <Ano>1957</Ano>
+    <Modelo>fusca 1200</Modelo>
+    <Preço>R$55.000</Preço>
+    <Imagem>Fusca.png</Imagem>
+</NACIONAIS>
+<NACIONAIS>
+   <CARROS>
+    <id>Fusca</id>
+    <Ano>1966</Ano>
+    <Modelo>fusca 1300</Modelo>
+    <Preço>R$45.000</Preço>
+    <Imagem>Fusca.png</Imagem>
+</NACIONAIS>
+<NACIONAIS>
+   <CARROS>
+    <id>Fusca</id>
+    <Ano>1967</Ano>
+    <Modelo>fusca 1500</Modelo>
+    <Preço>R$35.000</Preço>
+    <Imagem>Fusca.png</Imagem>
+</NACIONAIS>
+<NACIONAIS>
+   <CARROS>
+    <id>Fusca</id>
+    <Ano>1968</Ano>
+    <Modelo>Fafa</Modelo>
+    <Cor>Preto</Cor>
+    <Imagem>Fusca.png</Imagem>
+    <Nome>Fuscao</Nome>
+</NACIONAIS>
