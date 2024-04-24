@@ -5,7 +5,7 @@ var id = 0;
 $.ajax(url)
     .done(function(xml){
         $(xml).find("Fuscas").each(function(){
-            $("#cards").append('<div class="card"><a href="individual.html?id='+$(this).find("id").text()+'"><p class="procurado">Procurado</p> <img class="foto"src="'+ $(this).find("id").text() +'.jpg"><p class="vivo">Vivo ou Morto</p> <p class="nome">'+ $(this).find("nome").text() +'</p> <p>'+ $(this).find("alcunha").text()+'<\p> <p class="rec"> <img class="berrys" src="Berrys.png">'+ $(this).find("recompensa").text()+' </p><p> Status:'+ $(this).find("status").text()+'</a> </p><\div>');
+            $("#cards").append('<div class="card"><a href="individual.html?id='+$(this).find("id").text()+'"><p class= Lista">Lists</p> <img class="foto"src="'+ $(this).find("id").text() +'.jpg"><p class="Cor">Cor</p> <p class="Modelo">'+ $(this).find("Modelo").text() +'</p> <p>'+ $(this).find("Preço").text()+'<\p> <p class="rec"> <img class="berrys" src="Berrys.png">'+ $(this).find("Ano").text()+' </p><p> Status:'+ $(this).find("status").text()+'</a> </p><\div>');
         });
     })
     .fail(function(){
@@ -21,10 +21,10 @@ $.ajax(url)
 
     $.ajax(url)
     .done(function(xml){
-            $(xml).find("pirata").each(function(){
+            $(xml).find("Fuscas").each(function(){
                 var pos = parseInt($(this).find("id").text())
                 if(id == pos){
-                $("#individual").append('<div class="card"><p class="procurado">Procurado</p> <img class="foto"src="'+ $(this).find("id").text() +'.jpg"><p class="vivo">Vivo ou Morto</p> <p class="nome">'+ $(this).find("nome").text() +'</p> <p>'+ $(this).find("alcunha").text()+'<\p> <p class="rec"> <img class="berrys" src="Berrys.png">'+ $(this).find("recompensa").text()+' </p><p> Status:'+ $(this).find("status").text()+' </p><\div>');
+                $("#individual").append('<div class="card"><p class="Lista">Lista</p> <img class="foto"src="'+ $(this).find("id").text() +'.jpg"><p class="Cor">Cor</p> <p class="nome">'+ $(this).find("Modelo").text() +'</p> <p>'+ $(this).find("Preço").text()+'<\p> <p class="rec"> <img class="berrys" src="Berrys.png">'+ $(this).find("Ano").text()+' </p><p> Status:'+ $(this).find("status").text()+' </p><\div>');
                 }
             });
         

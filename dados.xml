@@ -1,42 +1,51 @@
 <?XML vesrsion="1.0">
  <NACIONAIS>
    <CARROS>
-    <id>Fuscas</id>
+    <id>1</id>
     <Ano>1938</Ano>
     <Modelo>fusca (tipo 1)</Modelo>
     <Preço>R$1.800.000</Preço>
-    <Imagem>Fusca.png</Imagem>
+    <Imagem>1.png</Imagem>
+    <Cor>Preto</Cor>
+   </CARROS>
 </NACIONAIS>
 <NACIONAIS>
    <CARROS>
-    <id>Fusca</id>
+    <id>2</id>
     <Ano>1957</Ano>
     <Modelo>fusca 1200</Modelo>
     <Preço>R$55.000</Preço>
-    <Imagem>Fusca.png</Imagem>
+    <Imagem>2.png</Imagem>
+    <Cor>Verde</Cor>
+    </CARROS>
 </NACIONAIS>
 <NACIONAIS>
    <CARROS>
-    <id>Fusca</id>
+    <id>3</id>
     <Ano>1966</Ano>
     <Modelo>fusca 1300</Modelo>
     <Preço>R$45.000</Preço>
-    <Imagem>Fusca.png</Imagem>
+    <Imagem>3.png</Imagem>
+    <Cor>Azul</Cor>
+   </CARROS>
 </NACIONAIS>
 <NACIONAIS>
    <CARROS>
-    <id>Fusca</id>
+    <id>4</id>
     <Ano>1967</Ano>
     <Modelo>fusca 1500</Modelo>
     <Preço>R$35.000</Preço>
-    <Imagem>Fusca.png</Imagem>
+    <Imagem>4.png</Imagem>
+    <Cor>Amarelo</Cor>
+    </CARROS>
 </NACIONAIS>
 <NACIONAIS>
    <CARROS>
-    <id>Fusca</id>
-    <Ano>1968</Ano>
-    <Modelo>Fafa</Modelo>
+    <id>5</id>
+    <Ano>1979</Ano>
+    <Modelo>fusca 1600</Modelo>
+    <Preço>R$30.000</Preço>
+    <Imagem>5.png</Imagem>
     <Cor>Preto</Cor>
-    <Imagem>Fusca.png</Imagem>
-    <Nome>Fuscao</Nome>
+   </CARROS>
 </NACIONAIS>

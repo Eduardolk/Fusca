@@ -30,7 +30,7 @@ body{
      border-radius: 20px;
      
  }
- .card .nome{
+ .card .Modelo{
      font-weight: bold;
      font-size: 150%;
  }
@@ -50,7 +50,7 @@ body{
      width: 10%;
      margin: 0%;
  }
- .procurado{
+ .Lista{
      text-align: center;
      font-family: Impact;
      font-size: 200%;
