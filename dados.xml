@@ -49,3 +49,54 @@
     <Cor>Preto</Cor>
    </CARROS>
 </NACIONAIS>
+<NACIONAIS>
+   <CARROS>
+    <id>6</id>
+    <Ano>1977</Ano>
+    <Modelo>Comodoro</Modelo>
+    <Preço>R$200.000</Preço>
+    <Imagem>5.png</Imagem>
+    <Cor>Preto</Cor>
+   </CARROS>
+</NACIONAIS>
+<NACIONAIS>
+   <CARROS>
+    <id>7</id>
+    <Ano>1995</Ano>
+    <Modelo>Omega</Modelo>
+    <Preço>R$35.000</Preço>
+    <Imagem>5.png</Imagem>
+    <Cor>Preto</Cor>
+   </CARROS>
+</NACIONAIS>
+<NACIONAIS>
+   <CARROS>
+    <id>8</id>
+    <Ano>1988</Ano>
+    <Modelo>Monza sl/e</Modelo>
+    <Preço>R$28.000</Preço>
+    <Imagem>5.png</Imagem>
+    <Cor>Preto</Cor>
+   </CARROS>
+</NACIONAIS>
+<NACIONAIS>
+   <CARROS>
+    <id>9</id>
+    <Ano>1982</Ano>
+    <Modelo>Galaxie</Modelo>
+    <Preço>R$120.000</Preço>
+    <Imagem>5.png</Imagem>
+    <Cor>Preto</Cor>
+   </CARROS>
+</NACIONAIS>
+<NACIONAIS>
+   <CARROS>
+    <id>10</id>
+    <Ano>1989</Ano>
+    <Modelo>Uno 1.5R</Modelo>
+    <Preço>R$40.000</Preço>
+    <Imagem>5.png</Imagem>
+    <Cor>Preto</Cor>
+   </CARROS>
+</NACIONAIS>
+
