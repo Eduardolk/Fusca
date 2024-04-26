@@ -1,11 +1,10 @@
-
 let url="dados.xml";
 var id = 0;
 
 $.ajax(url)
     .done(function(xml){
-        $(xml).find("Fuscas").each(function(){
-            $("#cards").append('<div class="card"><a href="individual.html?id='+$(this).find("id").text()+'"><p class= Lista">Lists</p> <img class="foto"src="'+ $(this).find("id").text() +'.jpg"><p class="Cor">Cor</p> <p class="Modelo">'+ $(this).find("Modelo").text() +'</p> <p>'+ $(this).find("Preço").text()+'<\p> <p class="rec"> <img class="berrys" src="Berrys.png">'+ $(this).find("Ano").text()+' </p><p> Status:'+ $(this).find("status").text()+'</a> </p><\div>');
+        $(xml).find("carros").each(function(){
+            $("#cards").append('<div class="card"><a href="individual.html?id='+$(this).find("id").text()+'"><p class="nacionais"Nacionais</p> <img class="foto"src="'+ $(this).find("id").text() +'.png"><p class="cores">Preto ou Amarelo</p> <p class="ano">'+ $(this).find("ano").text() +'</p> <p>'+ $(this).find("modelo").text()+'<\p> <p class="rec"> <img class="berrys" src="Berrys.png">'+ $(this).find("preço").text()+' </p><p> cor:'+ $(this).find("cor").text()+'</a> </p><\div>');
         });
     })
     .fail(function(){
@@ -21,10 +20,10 @@ $.ajax(url)
 
     $.ajax(url)
     .done(function(xml){
-            $(xml).find("Fuscas").each(function(){
+            $(xml).find("pirata").each(function(){
                 var pos = parseInt($(this).find("id").text())
                 if(id == pos){
-                $("#individual").append('<div class="card"><p class="Lista">Lista</p> <img class="foto"src="'+ $(this).find("id").text() +'.jpg"><p class="Cor">Cor</p> <p class="nome">'+ $(this).find("Modelo").text() +'</p> <p>'+ $(this).find("Preço").text()+'<\p> <p class="rec"> <img class="berrys" src="Berrys.png">'+ $(this).find("Ano").text()+' </p><p> Status:'+ $(this).find("status").text()+' </p><\div>');
+                $("#individual").append('<div class="card"><p class="carros">carros</p> <img class="foto"src="'+ $(this).find("id").text() +'.png"><p class="cores">Preto ou Amarelo</p> <p class="ano">'+ $(this).find("ano").text() +'</p> <p>'+ $(this).find("modelo").text()+'<\p> <p class="rec"> <img class="berrys" src="Berrys.png">'+ $(this).find("preço").text()+' </p><p> cor:'+ $(this).find("cor").text()+' </p><\div>');
                 }
             });
         
